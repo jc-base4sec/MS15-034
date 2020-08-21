@@ -1,0 +1,5 @@
+#checkear si el servidor remoto es vulnerable
+python xploit.ppy -t <hostAddr> -p <port>
+
+#realizar el ataque de denegacion de servicio sobre el sistema
+python xploit.ppy -t <hostAddr> -p <port> --exploit
